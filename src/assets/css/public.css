@@ -1,0 +1,43 @@
+  /* rem */
+  html{
+      font-size: 10px;
+  }
+
+
+  /* 横向排列 */
+  .flexDiv {
+    display: flex;
+    align-items: center;
+  }
+
+  /* 垂直居中 */
+  .flexDivCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* 左对齐 */
+  .flexFS {
+    justify-content: flex-start;
+  }
+  /* 右对齐 */
+  .flexFE {
+    justify-content: flex-end;
+  }
+  /* 每个项目两侧的间隔相等 */
+  .flexSA {
+    justify-content: space-around;
+  }
+  /* 两端对齐 */
+  .flexSB {
+    justify-content: space-between;
+  }
+
+
+
+
+
+  
+  
+  
